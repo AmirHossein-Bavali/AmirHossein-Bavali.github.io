@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="وب‌سایت رسمی و شخصی امیرحسین بوالی؛ معرفی، علایق و پروژه‌ها.">
+  <meta name="author" content="AmirHossein Bavali">
+  <meta name="robots" content="index,follow">
+  <title>امیرحسین بوالی | وب‌سایت شخصی</title>
+  <style>
+    :root{color-scheme:light;--ink:#151515;--muted:#666;--line:#e6e6e6;--paper:#fff;--soft:#f6f6f6}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.9}
+    a{color:inherit}header{border-bottom:1px solid var(--line);position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(10px);z-index:2}
+    .wrap{max-width:980px;margin:auto;padding:0 22px}.nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{font-weight:700;letter-spacing:.2px}.navlinks{display:flex;gap:20px;align-items:center}.navlinks a{text-decoration:none;font-size:.92rem}
+    select{background:white;border:1px solid var(--line);border-radius:8px;padding:8px;color:var(--ink);font:inherit}
+    main{padding:76px 0 60px}.eyebrow{color:var(--muted);font-size:.88rem;letter-spacing:.08em}
+    h1{font-size:clamp(2.2rem,6vw,4.5rem);line-height:1.2;margin:12px 0 18px;letter-spacing:-.04em}
+    .lead{font-size:1.15rem;color:#444;max-width:700px}.hero{padding:36px 0 70px;border-bottom:1px solid var(--line)}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:10px 18px;border:1px solid var(--ink);border-radius:8px;text-decoration:none;font-weight:600}
+    .btn.primary{background:var(--ink);color:white}.section{padding:48px 0;border-bottom:1px solid var(--line)}
+    h2{font-size:1.55rem;margin:0 0 16px}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .item{background:var(--soft);padding:20px;border-radius:12px}.item h3{margin:0 0 6px;font-size:1.05rem}.item p{margin:0;color:#555}
+    footer{padding:28px 0 42px;color:var(--muted);font-size:.9rem}
+    @media(max-width:650px){.nav{align-items:flex-start;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}.navlinks{order:3;width:100%;overflow:auto;gap:14px}.grid{grid-template-columns:1fr}main{padding-top:45px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <div class="brand">AmirHossein Bavali</div>
+  <nav class="navlinks" aria-label="ناوبری اصلی">
+    <a href="#about" data-i18n="navAbout">درباره من</a><a href="#interests" data-i18n="navInterests">علایق</a><a href="#projects" data-i18n="navProjects">پروژه‌ها</a>
+  </nav>
+  <select id="language" aria-label="Language">
+    <option value="fa">فارسی</option><option value="en">English</option><option value="ar">العربية</option>
+  </select>
+</div></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="eyebrow" data-i18n="eyebrow">وب‌سایت شخصی</div>
+    <h1 data-i18n="name">امیرحسین بوالی</h1>
+    <p class="lead" data-i18n="intro">به وب‌سایت شخصی من خوش آمدید. اینجا فضایی برای معرفی، علایق علمی و پروژه‌هایی است که روی آن‌ها کار می‌کنم.</p>
+    <div class="actions"><a class="btn primary" href="#about" data-i18n="more">بیشتر بدانید</a><a class="btn" href="#projects" data-i18n="view">مشاهده پروژه‌ها</a></div>
+  </section>
+  <section class="section" id="about"><h2 data-i18n="aboutTitle">درباره من</h2><p class="muted" data-i18n="aboutText">من دانش‌آموزی علاقه‌مند به یادگیری، پژوهش و توسعه ایده‌های نو هستم. این وب‌سایت به‌مرور با معرفی فعالیت‌ها و دستاوردهای من تکمیل خواهد شد.</p></section>
+  <section class="section" id="interests"><h2 data-i18n="interestsTitle">حوزه‌های مورد علاقه</h2><div class="grid">
+    <article class="item"><h3 data-i18n="interest1">علم و فناوری</h3><p data-i18n="interest1d">یادگیری مفاهیم علمی و آشنایی با فناوری‌های نو.</p></article>
+    <article class="item"><h3 data-i18n="interest2">تاریخ و فرهنگ</h3><p data-i18n="interest2d">مطالعه تاریخ، تمدن‌ها و میراث فرهنگی.</p></article>
+    <article class="item"><h3 data-i18n="interest3">طراحی و نوآوری</h3><p data-i18n="interest3d">توسعه ایده‌ها و طراحی راه‌حل‌های خلاقانه.</p></article>
+    <article class="item"><h3 data-i18n="interest4">زبان‌آموزی</h3><p data-i18n="interest4d">تقویت مهارت‌های ارتباطی در زبان‌های گوناگون.</p></article>
+  </div></section>
+  <section class="section" id="projects"><h2 data-i18n="projectsTitle">پروژه‌ها</h2><p class="muted" data-i18n="projectsText">این بخش برای معرفی پروژه‌ها و فعالیت‌های آینده در نظر گرفته شده است و پس از آماده‌شدن مطالب، به‌روزرسانی می‌شود.</p></section>
+</main>
+<footer><div class="wrap"><span data-i18n="footer">© کلیه حقوق این وب‌سایت محفوظ است.</span> · <span>AmirHossein Bavali</span></div></footer>
+<script>
+const translations={
+fa:{dir:"rtl",title:"امیرحسین بوالی | وب‌سایت شخصی",desc:"وب‌سایت رسمی و شخصی امیرحسین بوالی؛ معرفی، علایق و پروژه‌ها.",navAbout:"درباره من",navInterests:"علایق",navProjects:"پروژه‌ها",eyebrow:"وب‌سایت شخصی",name:"امیرحسین بوالی",intro:"به وب‌سایت شخصی من خوش آمدید. اینجا فضایی برای معرفی، علایق علمی و پروژه‌هایی است که روی آن‌ها کار می‌کنم.",more:"بیشتر بدانید",view:"مشاهده پروژه‌ها",aboutTitle:"درباره من",aboutText:"من دانش‌آموزی علاقه‌مند به یادگیری، پژوهش و توسعه ایده‌های نو هستم. این وب‌سایت به‌مرور با معرفی فعالیت‌ها و دستاوردهای من تکمیل خواهد شد.",interestsTitle:"حوزه‌های مورد علاقه",interest1:"علم و فناوری",interest1d:"یادگیری مفاهیم علمی و آشنایی با فناوری‌های نو.",interest2:"تاریخ و فرهنگ",interest2d:"مطالعه تاریخ، تمدن‌ها و میراث فرهنگی.",interest3:"طراحی و نوآوری",interest3d:"توسعه ایده‌ها و طراحی راه‌حل‌های خلاقانه.",interest4:"زبان‌آموزی",interest4d:"تقویت مهارت‌های ارتباطی در زبان‌های گوناگون.",projectsTitle:"پروژه‌ها",projectsText:"این بخش برای معرفی پروژه‌ها و فعالیت‌های آینده در نظر گرفته شده است و پس از آماده‌شدن مطالب، به‌روزرسانی می‌شود.",footer:"© کلیه حقوق این وب‌سایت محفوظ است."},
+en:{dir:"ltr",title:"AmirHossein Bavali | Personal Website",desc:"The personal website of AmirHossein Bavali: introduction, interests, and projects.",navAbout:"About",navInterests:"Interests",navProjects:"Projects",eyebrow:"PERSONAL WEBSITE",name:"AmirHossein Bavali",intro:"Welcome to my personal website. This is a space to introduce myself, share my academic interests, and present projects I work on.",more:"Learn more",view:"View projects",aboutTitle:"About Me",aboutText:"I am a student interested in learning, research, and developing new ideas. This website will gradually grow with updates about my activities and work.",interestsTitle:"Areas of Interest",interest1:"Science & Technology",interest1d:"Learning scientific concepts and exploring emerging technologies.",interest2:"History & Culture",interest2d:"Exploring history, civilizations, and cultural heritage.",interest3:"Design & Innovation",interest3d:"Developing ideas and designing creative solutions.",interest4:"Languages",interest4d:"Building communication skills across different languages.",projectsTitle:"Projects",projectsText:"This section is reserved for future projects and activities and will be updated as content becomes available.",footer:"© All rights reserved."},
+ar:{dir:"rtl",title:"أميرحسين بافالي | الموقع الشخصي",desc:"الموقع الشخصي لأميرحسين بافالي: نبذة واهتمامات ومشاريع.",navAbout:"نبذة عني",navInterests:"الاهتمامات",navProjects:"المشاريع",eyebrow:"الموقع الشخصي",name:"أميرحسين بافالي",intro:"مرحباً بكم في موقعي الشخصي. هذه مساحة للتعريف بي ومشاركة اهتماماتي العلمية والمشاريع التي أعمل عليها.",more:"اعرف المزيد",view:"عرض المشاريع",aboutTitle:"نبذة عني",aboutText:"أنا طالب مهتم بالتعلم والبحث وتطوير الأفكار الجديدة. سيتم تحديث هذا الموقع تدريجياً لعرض أنشطتي وأعمالي.",interestsTitle:"مجالات الاهتمام",interest1:"العلوم والتكنولوجيا",interest1d:"تعلم المفاهيم العلمية واستكشاف التقنيات الحديثة.",interest2:"التاريخ والثقافة",interest2d:"دراسة التاريخ والحضارات والتراث الثقافي.",interest3:"التصميم والابتكار",interest3d:"تطوير الأفكار وتصميم حلول إبداعية.",interest4:"تعلم اللغات",interest4d:"تعزيز مهارات التواصل بلغات مختلفة.",projectsTitle:"المشاريع",projectsText:"هذا القسم مخصص للمشاريع والأنشطة المستقبلية وسيتم تحديثه عند توفر المحتوى.",footer:"© جميع الحقوق محفوظة."}
+};
+const selector=document.getElementById("language");
+function setLanguage(lang){const t=translations[lang]||translations.fa;document.documentElement.lang=lang;document.documentElement.dir=t.dir;document.title=t.title;document.querySelector('meta[name="description"]').content=t.desc;document.querySelectorAll("[data-i18n]").forEach(el=>{const key=el.dataset.i18n;if(t[key])el.textContent=t[key]});}
+selector.addEventListener("change",e=>setLanguage(e.target.value));setLanguage("fa");
+</script>
+</body></html>
